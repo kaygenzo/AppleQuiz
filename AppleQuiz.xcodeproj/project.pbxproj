@@ -12,6 +12,16 @@
 		A2DC535F222FD4F900AAE5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DC535D222FD4F900AAE5C3 /* Main.storyboard */; };
 		A2DC5361222FD4FA00AAE5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC5360222FD4FA00AAE5C3 /* Assets.xcassets */; };
 		A2DC5364222FD4FA00AAE5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DC5362222FD4FA00AAE5C3 /* LaunchScreen.storyboard */; };
+		A2DC536F222FD5E300AAE5C3 /* tictac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2DC536C222FD5E300AAE5C3 /* tictac.mp3 */; };
+		A2DC5370222FD5E300AAE5C3 /* non.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2DC536D222FD5E300AAE5C3 /* non.mp3 */; };
+		A2DC5371222FD5E300AAE5C3 /* oui.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2DC536E222FD5E300AAE5C3 /* oui.wav */; };
+		A2DC537322300D2300AAE5C3 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537222300D2300AAE5C3 /* CustomCardView.swift */; };
+		A2DC537522301F7600AAE5C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537422301F7600AAE5C3 /* CustomButton.swift */; };
+		A2DC537722301FFC00AAE5C3 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537622301FFC00AAE5C3 /* ExtensionView.swift */; };
+		A2DC53792230290A00AAE5C3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC53782230290A00AAE5C3 /* Response.swift */; };
+		A2DC537B22302B1F00AAE5C3 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537A22302B1F00AAE5C3 /* Logo.swift */; };
+		A2DC537D22302E4100AAE5C3 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537C22302E4100AAE5C3 /* CustomLabel.swift */; };
+		A2DC537F223120F800AAE5C3 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC537E223120F800AAE5C3 /* Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		A2DC5360222FD4FA00AAE5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DC5363222FD4FA00AAE5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DC5365222FD4FA00AAE5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DC536C222FD5E300AAE5C3 /* tictac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tictac.mp3; sourceTree = "<group>"; };
+		A2DC536D222FD5E300AAE5C3 /* non.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = non.mp3; sourceTree = "<group>"; };
+		A2DC536E222FD5E300AAE5C3 /* oui.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oui.wav; sourceTree = "<group>"; };
+		A2DC537222300D2300AAE5C3 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		A2DC537422301F7600AAE5C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A2DC537622301FFC00AAE5C3 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		A2DC53782230290A00AAE5C3 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A2DC537A22302B1F00AAE5C3 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		A2DC537C22302E4100AAE5C3 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		A2DC537E223120F800AAE5C3 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		A2DC5358222FD4F900AAE5C3 /* AppleQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				A2DC536B222FD5E300AAE5C3 /* sons */,
 				A2DC5359222FD4F900AAE5C3 /* AppDelegate.swift */,
 				A2DC535B222FD4F900AAE5C3 /* ViewController.swift */,
 				A2DC535D222FD4F900AAE5C3 /* Main.storyboard */,
 				A2DC5360222FD4FA00AAE5C3 /* Assets.xcassets */,
 				A2DC5362222FD4FA00AAE5C3 /* LaunchScreen.storyboard */,
 				A2DC5365222FD4FA00AAE5C3 /* Info.plist */,
+				A2DC537222300D2300AAE5C3 /* CustomCardView.swift */,
+				A2DC537422301F7600AAE5C3 /* CustomButton.swift */,
+				A2DC537622301FFC00AAE5C3 /* ExtensionView.swift */,
+				A2DC53782230290A00AAE5C3 /* Response.swift */,
+				A2DC537A22302B1F00AAE5C3 /* Logo.swift */,
+				A2DC537C22302E4100AAE5C3 /* CustomLabel.swift */,
+				A2DC537E223120F800AAE5C3 /* Sound.swift */,
 			);
 			path = AppleQuiz;
+			sourceTree = "<group>";
+		};
+		A2DC536B222FD5E300AAE5C3 /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC536C222FD5E300AAE5C3 /* tictac.mp3 */,
+				A2DC536D222FD5E300AAE5C3 /* non.mp3 */,
+				A2DC536E222FD5E300AAE5C3 /* oui.wav */,
+			);
+			path = sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DC5371222FD5E300AAE5C3 /* oui.wav in Resources */,
+				A2DC536F222FD5E300AAE5C3 /* tictac.mp3 in Resources */,
 				A2DC5364222FD4FA00AAE5C3 /* LaunchScreen.storyboard in Resources */,
 				A2DC5361222FD4FA00AAE5C3 /* Assets.xcassets in Resources */,
 				A2DC535F222FD4F900AAE5C3 /* Main.storyboard in Resources */,
+				A2DC5370222FD5E300AAE5C3 /* non.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DC537522301F7600AAE5C3 /* CustomButton.swift in Sources */,
+				A2DC537B22302B1F00AAE5C3 /* Logo.swift in Sources */,
+				A2DC537722301FFC00AAE5C3 /* ExtensionView.swift in Sources */,
 				A2DC535C222FD4F900AAE5C3 /* ViewController.swift in Sources */,
 				A2DC535A222FD4F900AAE5C3 /* AppDelegate.swift in Sources */,
+				A2DC53792230290A00AAE5C3 /* Response.swift in Sources */,
+				A2DC537322300D2300AAE5C3 /* CustomCardView.swift in Sources */,
+				A2DC537F223120F800AAE5C3 /* Sound.swift in Sources */,
+				A2DC537D22302E4100AAE5C3 /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
